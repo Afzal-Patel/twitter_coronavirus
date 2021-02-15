@@ -13,7 +13,7 @@ corresponing (named by day) .lang and .country files located in the outputs dire
 
 The viz directory contains the saved outputs from visualize.py, 
 and splits the data by country and language for every hashtag in the map.py program.
-The sub-directories in viz group hashtags that are in different languages.
+The sub-directories in viz groups hashtags that are in different languages.
 
 run_maps.sh is the bash script used to gather all of the data and run map.py on every .zip file in parallel.
 

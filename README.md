@@ -1,8 +1,8 @@
 #Coronavirus Analysis
 
 This repo analyzes the activity of various coronavirus hashtags on twitter.
-The dataset used consists of all geotagged tweets sent in 2020 (around 1.1 billion tweets).
-The data is split into 365 .zip files, and each .zip file is partitioned by tweets sent within the hour.
+The dataset used consists of all geotagged tweets sent in 2020 (around 1.1 billion tweets),
+and is split into 365 .zip files. Each .zip file is partitioned by tweets sent within the hour.
 
 The src directory contains three python programs:
 1. map.py parses and extracts information from every .zip file, and then saves the data by writing to 

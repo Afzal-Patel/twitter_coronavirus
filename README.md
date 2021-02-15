@@ -15,10 +15,9 @@ nohup.out.txt shows the command line prompts while running run_maps.sh from star
 
 The viz directory contains all of the saved outputs from visualize.py,
 split by country and language for every hashtag in the map.py program.
-The results depict the frequency of tweet country/language that used the hashtag.
+
 Each file is named after the hashtag it represents. 
-The sub-directories in viz groups hashtags that are in different languages.
-
-
+The results depict the frequency of tweets in the dataset having the country or language attribute and hashtag.
+The sub-directories in viz groups together words (hashtags) that are in different languages.
 
 

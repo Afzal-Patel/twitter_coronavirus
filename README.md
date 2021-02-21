@@ -13,7 +13,7 @@ corresponing (named by day) .lang and .country files located in the outputs dire
 run_maps.sh is the bash script used to run map.py on every .zip file in parallel.
 nohup.out.txt shows the command line prompts while running run_maps.sh from start to finish.
 
-The viz directory contains all of the saved outputs from visualize.py,
+The viz directory contains all of the saved outputs from visualize.py (obtained from running create_viz.sh),
 split by country and language for every hashtag in the map.py program.
 
 Each file is named after the hashtag it represents. 

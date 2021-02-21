@@ -37,7 +37,11 @@ hashtags=(
 '#백신'
 '#대유행' )
 
-#compile viz
+#create reduced files
+#./src/reduce.py --input_paths outputs/geoTwitter*.lang --output_path=reduced/reduced.lang
+#./src/reduce.py --input_paths outputs/geoTwitter*.country --output_path=reduced/reduced.country
+
+#compile viz into test_viz_output/country_viz and test_viz_output/lang_viz directories
 for ht in ${hashtags[@]}; do
     ./src/visualize.py --input_path=reduced/reduced.country --key=$ht | head > test_viz_output/country_viz/$ht;
     ./src/visualize.py --input_path=reduced/reduced.lang --key=$ht | head > test_viz_output/lang_viz/$ht;
